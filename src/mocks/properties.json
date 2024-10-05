@@ -1,0 +1,232 @@
+[
+  {
+    "imageUrl": "/property/prop_3.jpeg",
+    "title": "3BHK Individual House",
+    "bathrooms": 3,
+    "bedrooms": 3,
+    "parking": true,
+    "price": "18,000",
+    "location": "Porur",
+    "type": "Individual House"
+  },
+  {
+    "imageUrl": "/property/prop_2.jpg",
+    "title": "2BHK Flat",
+    "bathrooms": 2,
+    "bedrooms": 2,
+    "parking": true,
+    "price": "13,000",
+    "location": "Chengalpattu",
+    "type": "Apartment"
+  },
+  {
+    "imageUrl": "/property/prop_1.jpeg",
+    "title": "5BHK Individual House",
+    "bathrooms": 4,
+    "bedrooms": 5,
+    "parking": true,
+    "price": "45,000",
+    "location": "Thiruvanmaiyur",
+    "type": "Individual House"
+  },
+  {
+    "imageUrl": "/property/prop_2.jpg",
+    "title": "1BHK Studio Apartment",
+    "bathrooms": 1,
+    "bedrooms": 1,
+    "parking": false,
+    "price": "8,000",
+    "location": "Guindy",
+    "type": "Apartment"
+  },
+  {
+    "imageUrl": "/property/prop_1.jpeg",
+    "title": "4BHK Penthouse",
+    "bathrooms": 3,
+    "bedrooms": 4,
+    "parking": true,
+    "price": "25,000",
+    "location": "Perungudi",
+    "type": "Penthouse"
+  },
+  {
+    "imageUrl": "/property/prop_3.jpeg",
+    "title": "2BHK Individual House",
+    "bathrooms": 2,
+    "bedrooms": 2,
+    "parking": true,
+    "price": "15,000",
+    "location": "Tharamani",
+    "type": "Individual House"
+  },
+  {
+    "imageUrl": "/property/prop_3.jpeg",
+    "title": "3BHK Individual House",
+    "bathrooms": 3,
+    "bedrooms": 3,
+    "parking": true,
+    "price": "18,500",
+    "location": "Navalur",
+    "type": "Individual House"
+  },
+  {
+    "imageUrl": "/property/prop_2.jpg",
+    "title": "1BHK Apartment",
+    "bathrooms": 1,
+    "bedrooms": 1,
+    "parking": false,
+    "price": "7,500",
+    "location": "Siruseri",
+    "type": "Apartment"
+  },
+  {
+    "imageUrl": "/property/prop_1.jpeg",
+    "title": "6BHK Bungalow",
+    "bathrooms": 5,
+    "bedrooms": 6,
+    "parking": true,
+    "price": "60,000",
+    "location": "Ramapuram",
+    "type": "Bungalow"
+  },
+  {
+    "imageUrl": "/property/prop_3.jpeg",
+    "title": "3BHK Duplex",
+    "bathrooms": 3,
+    "bedrooms": 3,
+    "parking": true,
+    "price": "22,000",
+    "location": "Vadapalani",
+    "type": "Duplex"
+  },
+  {
+    "imageUrl": "/property/prop_1.jpeg",
+    "title": "2BHK Row House",
+    "bathrooms": 2,
+    "bedrooms": 2,
+    "parking": true,
+    "price": "12,000",
+    "location": "Alandur",
+    "type": "Row House"
+  },
+  {
+    "imageUrl": "/property/prop_2.jpg",
+    "title": "4BHK Penthouse",
+    "bathrooms": 4,
+    "bedrooms": 4,
+    "parking": true,
+    "price": "28,000",
+    "location": "Porur",
+    "type": "Penthouse"
+  },
+  {
+    "imageUrl": "/property/prop_1.jpeg",
+    "title": "3BHK Villa",
+    "bathrooms": 3,
+    "bedrooms": 3,
+    "parking": true,
+    "price": "24,000",
+    "location": "Chengalpattu",
+    "type": "Villa"
+  },
+  {
+    "imageUrl": "/property/prop_3.jpeg",
+    "title": "1BHK Apartment",
+    "bathrooms": 1,
+    "bedrooms": 1,
+    "parking": false,
+    "price": "9,000",
+    "location": "Thiruvanmaiyur",
+    "type": "Apartment"
+  },
+  {
+    "imageUrl": "/property/prop_3.jpeg",
+    "title": "4BHK Duplex",
+    "bathrooms": 4,
+    "bedrooms": 4,
+    "parking": true,
+    "price": "35,000",
+    "location": "Guindy",
+    "type": "Duplex"
+  },
+  {
+    "imageUrl": "/property/prop_2.jpg",
+    "title": "3BHK Flat",
+    "bathrooms": 3,
+    "bedrooms": 3,
+    "parking": true,
+    "price": "19,000",
+    "location": "Perungudi",
+    "type": "Apartment"
+  },
+  {
+    "imageUrl": "/property/prop_1.jpeg",
+    "title": "5BHK Villa",
+    "bathrooms": 4,
+    "bedrooms": 5,
+    "parking": true,
+    "price": "48,000",
+    "location": "Tharamani",
+    "type": "Villa"
+  },
+  {
+    "imageUrl": "/property/prop_3.jpeg",
+    "title": "2BHK Studio",
+    "bathrooms": 2,
+    "bedrooms": 2,
+    "parking": true,
+    "price": "15,000",
+    "location": "Navalur",
+    "type": "Studio"
+  },
+  {
+    "imageUrl": "/property/prop_2.jpg",
+    "title": "4BHK Independent House",
+    "bathrooms": 4,
+    "bedrooms": 4,
+    "parking": true,
+    "price": "32,000",
+    "location": "Siruseri",
+    "type": "Independent House"
+  },
+  {
+    "imageUrl": "/property/prop_4.jpg",
+    "title": "3BHK Villa",
+    "bathrooms": 3,
+    "bedrooms": 3,
+    "parking": true,
+    "price": "26,000",
+    "location": "Ramapuram",
+    "type": "Villa"
+  },
+  {
+    "imageUrl": "/property/prop_5.jpg",
+    "title": "2BHK Duplex",
+    "bathrooms": 2,
+    "bedrooms": 2,
+    "parking": true,
+    "price": "14,500",
+    "location": "Vadapalani",
+    "type": "Duplex"
+  },
+  {
+    "imageUrl": "/property/prop_2.jpg",
+    "title": "5BHK Bungalow",
+    "bathrooms": 4,
+    "bedrooms": 5,
+    "parking": true,
+    "price": "50,000",
+    "location": "Alandur",
+    "type": "Bungalow"
+  },
+  {
+    "imageUrl": "/property/prop_1.jpeg",
+    "title": "4BHK Individual House",
+    "bathrooms": 4,
+    "bedrooms": 4,
+    "parking": true,
+    "price": "40,000",
+    "location": "Porur",
+    "type": "Individual House"
+  }
+]

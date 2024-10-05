@@ -1,0 +1,101 @@
+@import './styles/colors.scss';
+
+@font-face {
+    font-family: "poppins";
+    font-weight: 400;
+    src: url('./resources/fonts/poppins/Poppins-Regular.woff') format('woff'),
+        url('./resources//fonts//poppins/Poppins-Regular.woff2') format('woff2');
+    font-display: swap;
+}
+
+* {
+    font-family: "poppins";
+}
+
+h3 {
+    margin: 0;
+}
+
+body {
+    font-size: 16px;
+    margin: 0;
+    height: 100vh;
+}
+
+[data-dismiss="modal"] {
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.w-70 {
+    width: 50%;
+}
+
+ul {
+    padding-inline-start: unset;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-bottom: 0;
+}
+
+.bg-teal {
+    background: #007C7C;
+}
+
+.modal-backdrop.show {
+    opacity: $bs-backdrop-opacity;
+}
+
+.modal-header {
+    background-color: $teal;
+    color: $white;
+}
+
+.btn-primary {
+    background-color: $teal;
+    border-color: $teal;
+
+    &:hover,
+    &:focus,
+    &:focus-visible,
+    &:active {
+        background-color: white;
+        color: $teal;
+        border-color: $teal;
+        outline: none;
+    }
+}
+
+:not(.btn-check)+.btn:active {
+    background-color: white;
+    color: $teal;
+    border-color: $teal;
+    outline: none;
+}
+
+
+.m-screen {
+    .m-hide {
+        display: none;
+    }
+}
+
+.sm-screen {
+    .s-hide {
+        display: none;
+    }
+
+    .menu {
+        display: none;
+    }
+}
+
+.modal {
+    .modal-body {
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    }
+}

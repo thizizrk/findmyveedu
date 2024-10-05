@@ -1,0 +1,89 @@
+@import '../../styles/colors';
+
+// .property-page {
+//     padding-top: 5%;
+//     padding-bottom: 3%;
+// }
+
+.search-btn {
+    .btn {
+        &:hover {
+            color: $teal !important;
+            border-color: $teal;
+        }
+    }
+
+}
+
+.properties-tool-bar {
+    background: $white;
+    padding: 30px;
+    color: $teal;
+    position: fixed;
+    width: 50%;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: 5px solid $teal;
+    box-shadow: 0px 0px 10px #cccc;
+    border-radius: 30px !important;
+
+    .tool-bar {
+        div {
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.close-filter {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: -10%;
+}
+
+.property-search-results {
+    padding: 30px;
+    overflow: hidden;
+    overflow-y: scroll;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+.property-card {
+    box-shadow: 0px 0px 10px #efefef;
+    text-align: center;
+    width: 100%;
+    background: #efefef;
+
+    .property-content {
+        padding: 10px;
+        text-align: left;
+    }
+
+    .property-image {
+        img {
+            width: 100%;
+            object-fit: cover;
+            height: 250px;
+            object-position: top;
+        }
+    }
+
+    .property-meta {
+        background: #efefef;
+        padding: 15px;
+    }
+}
+
+.sm-screen {
+    .filter-details{
+        width: 85%;
+    }
+}
