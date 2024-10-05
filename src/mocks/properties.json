@@ -1,6 +1,6 @@
 [
   {
-    "imageUrl": "/property/prop_3.jpeg",
+    "imageUrl": "property/prop_3.jpeg",
     "title": "3BHK Individual House",
     "bathrooms": 3,
     "bedrooms": 3,
@@ -10,7 +10,7 @@
     "type": "Individual House"
   },
   {
-    "imageUrl": "/property/prop_2.jpg",
+    "imageUrl": "property/prop_2.jpg",
     "title": "2BHK Flat",
     "bathrooms": 2,
     "bedrooms": 2,
@@ -20,7 +20,7 @@
     "type": "Apartment"
   },
   {
-    "imageUrl": "/property/prop_1.jpeg",
+    "imageUrl": "property/prop_1.jpeg",
     "title": "5BHK Individual House",
     "bathrooms": 4,
     "bedrooms": 5,
@@ -30,7 +30,7 @@
     "type": "Individual House"
   },
   {
-    "imageUrl": "/property/prop_2.jpg",
+    "imageUrl": "property/prop_2.jpg",
     "title": "1BHK Studio Apartment",
     "bathrooms": 1,
     "bedrooms": 1,
@@ -40,7 +40,7 @@
     "type": "Apartment"
   },
   {
-    "imageUrl": "/property/prop_1.jpeg",
+    "imageUrl": "property/prop_1.jpeg",
     "title": "4BHK Penthouse",
     "bathrooms": 3,
     "bedrooms": 4,
@@ -50,7 +50,7 @@
     "type": "Penthouse"
   },
   {
-    "imageUrl": "/property/prop_3.jpeg",
+    "imageUrl": "property/prop_3.jpeg",
     "title": "2BHK Individual House",
     "bathrooms": 2,
     "bedrooms": 2,
@@ -60,7 +60,7 @@
     "type": "Individual House"
   },
   {
-    "imageUrl": "/property/prop_3.jpeg",
+    "imageUrl": "property/prop_3.jpeg",
     "title": "3BHK Individual House",
     "bathrooms": 3,
     "bedrooms": 3,
@@ -70,7 +70,7 @@
     "type": "Individual House"
   },
   {
-    "imageUrl": "/property/prop_2.jpg",
+    "imageUrl": "property/prop_2.jpg",
     "title": "1BHK Apartment",
     "bathrooms": 1,
     "bedrooms": 1,
@@ -80,7 +80,7 @@
     "type": "Apartment"
   },
   {
-    "imageUrl": "/property/prop_1.jpeg",
+    "imageUrl": "property/prop_1.jpeg",
     "title": "6BHK Bungalow",
     "bathrooms": 5,
     "bedrooms": 6,
@@ -90,7 +90,7 @@
     "type": "Bungalow"
   },
   {
-    "imageUrl": "/property/prop_3.jpeg",
+    "imageUrl": "property/prop_3.jpeg",
     "title": "3BHK Duplex",
     "bathrooms": 3,
     "bedrooms": 3,
@@ -100,7 +100,7 @@
     "type": "Duplex"
   },
   {
-    "imageUrl": "/property/prop_1.jpeg",
+    "imageUrl": "property/prop_1.jpeg",
     "title": "2BHK Row House",
     "bathrooms": 2,
     "bedrooms": 2,
@@ -110,7 +110,7 @@
     "type": "Row House"
   },
   {
-    "imageUrl": "/property/prop_2.jpg",
+    "imageUrl": "property/prop_2.jpg",
     "title": "4BHK Penthouse",
     "bathrooms": 4,
     "bedrooms": 4,
@@ -120,7 +120,7 @@
     "type": "Penthouse"
   },
   {
-    "imageUrl": "/property/prop_1.jpeg",
+    "imageUrl": "property/prop_1.jpeg",
     "title": "3BHK Villa",
     "bathrooms": 3,
     "bedrooms": 3,
@@ -130,7 +130,7 @@
     "type": "Villa"
   },
   {
-    "imageUrl": "/property/prop_3.jpeg",
+    "imageUrl": "property/prop_3.jpeg",
     "title": "1BHK Apartment",
     "bathrooms": 1,
     "bedrooms": 1,
@@ -140,7 +140,7 @@
     "type": "Apartment"
   },
   {
-    "imageUrl": "/property/prop_3.jpeg",
+    "imageUrl": "property/prop_3.jpeg",
     "title": "4BHK Duplex",
     "bathrooms": 4,
     "bedrooms": 4,
@@ -150,7 +150,7 @@
     "type": "Duplex"
   },
   {
-    "imageUrl": "/property/prop_2.jpg",
+    "imageUrl": "property/prop_2.jpg",
     "title": "3BHK Flat",
     "bathrooms": 3,
     "bedrooms": 3,
@@ -160,7 +160,7 @@
     "type": "Apartment"
   },
   {
-    "imageUrl": "/property/prop_1.jpeg",
+    "imageUrl": "property/prop_1.jpeg",
     "title": "5BHK Villa",
     "bathrooms": 4,
     "bedrooms": 5,
@@ -170,7 +170,7 @@
     "type": "Villa"
   },
   {
-    "imageUrl": "/property/prop_3.jpeg",
+    "imageUrl": "property/prop_3.jpeg",
     "title": "2BHK Studio",
     "bathrooms": 2,
     "bedrooms": 2,
@@ -180,7 +180,7 @@
     "type": "Studio"
   },
   {
-    "imageUrl": "/property/prop_2.jpg",
+    "imageUrl": "property/prop_2.jpg",
     "title": "4BHK Independent House",
     "bathrooms": 4,
     "bedrooms": 4,
@@ -190,7 +190,7 @@
     "type": "Independent House"
   },
   {
-    "imageUrl": "/property/prop_4.jpg",
+    "imageUrl": "property/prop_4.jpg",
     "title": "3BHK Villa",
     "bathrooms": 3,
     "bedrooms": 3,
@@ -200,7 +200,7 @@
     "type": "Villa"
   },
   {
-    "imageUrl": "/property/prop_5.jpg",
+    "imageUrl": "property/prop_5.jpg",
     "title": "2BHK Duplex",
     "bathrooms": 2,
     "bedrooms": 2,
@@ -210,7 +210,7 @@
     "type": "Duplex"
   },
   {
-    "imageUrl": "/property/prop_2.jpg",
+    "imageUrl": "property/prop_2.jpg",
     "title": "5BHK Bungalow",
     "bathrooms": 4,
     "bedrooms": 5,
@@ -220,7 +220,7 @@
     "type": "Bungalow"
   },
   {
-    "imageUrl": "/property/prop_1.jpeg",
+    "imageUrl": "property/prop_1.jpeg",
     "title": "4BHK Individual House",
     "bathrooms": 4,
     "bedrooms": 4,
