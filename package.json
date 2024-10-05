@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "start_url": "/",
   "scripts": {
     "dev": "vite --port 3000",
     "build": "vite build",
@@ -11,7 +10,7 @@
     "preview": "vite preview",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.7",
