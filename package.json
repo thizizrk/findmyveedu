@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "start_url": "http://thizizrk.github.io/findmyveedu/",
+  "start_url": "/",
   "scripts": {
     "dev": "vite --port 3000",
     "build": "vite build",
