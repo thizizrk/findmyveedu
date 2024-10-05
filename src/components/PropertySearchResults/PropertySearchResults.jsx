@@ -35,7 +35,7 @@ const PropertySearchResults = ({ filteredProperties }) => {
                 )}
 
             {propertyDetails && <div className={`modal fade ${propertyDetails ? 'show d-block' : ''}`} data-bs-backdrop="static" tabIndex="-1" role="dialog" style={{ backgroundColor: propertyDetails ? 'rgba(0, 0, 0, 0.5)' : 'transparent' }}>
-                <div className="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable" role="document">
+                <div className="modal-dialog modal-fullscreen modal-dialog-centered modal-dialog-scrollable p-0" role="document">
                     <div className="modal-content">
                         <div className="modal-header justify-content-between">
                             <h5 className="modal-title">Property Details</h5>
