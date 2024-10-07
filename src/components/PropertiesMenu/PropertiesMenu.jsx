@@ -8,7 +8,7 @@ const PropertiesMenu = () => {
         window.onload = () => {
             const propertiesMenu = propertiesMenuRef.current;
             if(document.querySelector('.sm-screen')){
-                propertiesMenu.style.top = propertiesMenu.clientHeight - 6 + "px";
+                propertiesMenu.style.top = propertiesMenu.clientHeight - 12 + "px";
             }
             else{
                 propertiesMenu.style.top = propertiesMenu.clientHeight + "px";

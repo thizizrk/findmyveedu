@@ -1,5 +1,6 @@
 .properties-menu {
     position: sticky;
+    position: -webkit-sticky; 
     padding: 30px 0px;
     background: white;
     z-index: 1;
