@@ -1,0 +1,29 @@
+.properties-menu {
+    position: sticky;
+    padding: 30px 0px;
+    background: white;
+    z-index: 1;
+
+
+    .menu-list {
+        column-gap: 50px;
+        align-items: center;
+
+        li {
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.sm-screen {
+    .properties-menu {
+        // padding: 30px;
+        overflow-x: scroll;
+        // background: #efefef;
+        .menu-list {
+            width: max-content;
+        }
+    }
+}

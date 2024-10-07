@@ -1,0 +1,45 @@
+.property-card {
+    box-shadow: 0px 0px 10px #efefef;
+    text-align: center;
+    width: 100%;
+    background: #efefef;
+
+    .property-content {
+        padding: 10px;
+        text-align: left;
+    }
+
+    .property-title{
+        font-weight: 900;
+        text-align: left;
+        margin-bottom: 15px;
+        // padding: 1rem;
+    }
+
+
+    .property-image {
+        position: relative;
+
+        img {
+            width: 100%;
+            object-fit: cover;
+            height: 250px;
+            object-position: top;
+        }
+
+        .property-location {
+            width: max-content;
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            background: #efefef;
+            padding: 15px;
+            border-radius: 65px;
+        }
+    }
+
+    .property-meta {
+        background: #efefef;
+        padding: 15px;
+    }
+}

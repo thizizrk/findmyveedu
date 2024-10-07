@@ -1,14 +1,22 @@
 import ImageLoader from "../Image/ImageLoader";
+import './style.scss';
 
 const PropertyCard = ({ property }) => {
     return (
         <div className="property-card">
             <div className="property-image">
+                {/* <div className="property-title">
+                    <p className='mb-0'>{property.title}</p>
+                </div> */}
                 <ImageLoader className='img-fluid' height="250" src={property.imageUrl} alt={property.title} />
+                {/* <p className="property-location">
+                    <i className="fa fa-map-marker-alt me-2" aria-hidden="true"></i>
+                    <span>{property.location}</span>
+                </p> */}
                 {/* <img className='img-fluid' src={property.imageUrl} alt={property.title} /> */}
             </div>
-            <div className="property-content p-3">
-                <div className="d-flex justify-content-between">
+            <div className="d-flex justify-content-between align-items-base property-content p-3">
+                <div className="justify-content-between">
                     <div className="property-title">
                         <p className='mb-0'>{property.title}</p>
                     </div>
@@ -17,6 +25,9 @@ const PropertyCard = ({ property }) => {
                     <span>{property.location}</span>
                     </div>
                 </div>
+                {/* <div className="div">
+                    <button>View Property</button>
+                </div> */}
 
             </div>
             <hr className='m-0' />

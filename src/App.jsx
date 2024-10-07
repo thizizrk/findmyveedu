@@ -50,7 +50,7 @@ function App() {
 
 
   return (
-    <div className={`${screenSize}`}>
+    <div className={`${screenSize} container`}>
       <Header />
 
       <div className="main-content">

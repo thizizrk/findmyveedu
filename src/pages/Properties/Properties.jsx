@@ -1,6 +1,7 @@
 import './style.scss';
 import properties from '../../mocks/properties.json';
 import { useState, lazy, Suspense } from 'react';
+import PropertiesMenu from '../../components/PropertiesMenu/PropertiesMenu';
 
 const PropertyFilterModal = lazy(() => import('../../components/PropertyFilterModal/PropertyFilterModal'));
 const PropertiesToolBar = lazy(() => import('../../components/PropertiesToolBar/PropertiesToolBar'));
@@ -72,13 +73,13 @@ const Properties = () => {
 
     return (
         <div className='property-page'>
-            <div className='properties mb-5'>
-                <div className='container'>
-                    <div className='property-search-results'>
-                        <Suspense fallback={<div>Loading Properties...</div>}>
-                            <PropertySearchResults filteredProperties={filteredProperties} />
-                        </Suspense>
-                    </div>
+            <PropertiesMenu />
+            <div className='properties my-5'>
+                <h3 className='mb-5'>List of PG's</h3>
+                <div className='property-search-results'>
+                    <Suspense fallback={<div>Loading Properties...</div>}>
+                        <PropertySearchResults filteredProperties={filteredProperties} />
+                    </Suspense>
                 </div>
             </div>
 

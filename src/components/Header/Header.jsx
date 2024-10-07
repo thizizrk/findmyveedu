@@ -5,7 +5,8 @@ const Navbar = () => {
         <div className='header bg-teal'>
             <div className="nav container">
                 <div className="logo">
-                    <h3>FMV</h3>
+                    <img src="logo/logo-dark-new.png" alt="" />
+                    {/* <h3>FMV</h3> */}
                 </div>
                 <div className="menu">
                     <ul>

@@ -33,7 +33,7 @@ const PropertyRequestForm = () => {
   };
 
   return (
-    <div className="container mt-5">
+    <div className="mt-5">
       {submitted ? (
         <div className="alert alert-success" role="alert">
           Thank you for your request! We will get back to you shortly.

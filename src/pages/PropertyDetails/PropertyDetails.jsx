@@ -37,7 +37,7 @@ const PropertyDetails = ({property}) => {
 
     return (
         <>
-            <div className="property-details container">
+            <div className="property-details">
                 <div className="row align-items-center">
                     <div className="col-12">
                         <h3 className='mb-5'>{property.title}</h3>
