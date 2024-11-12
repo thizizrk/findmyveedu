@@ -75,7 +75,7 @@ const Properties = () => {
         <div className='property-page'>
             <PropertiesMenu />
             <div className='properties my-5'>
-                <h3 className='mb-5'>{filteredProperties.length} {filteredProperties.length > 1 ? "PG's" : "PG"} found</h3>
+               {filteredProperties.length != 0 && <h3 className='mb-5'>{filteredProperties.length} {filteredProperties.length > 1 ? "Properties" : "Property"} found</h3>}
                 <div className='property-search-results'>
                     <Suspense fallback={<div>Loading Properties...</div>}>
                         <PropertySearchResults filteredProperties={filteredProperties} />

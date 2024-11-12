@@ -4,17 +4,20 @@ const PropertiesMenu = () => {
 
     let propertiesMenuRef = useRef(null);
 
-    useEffect(()=>{
-        window.onload = () => {
-            const propertiesMenu = propertiesMenuRef.current;
-            if(document.querySelector('.sm-screen')){
-                propertiesMenu.style.top = propertiesMenu.clientHeight - 12 + "px";
-            }
-            else{
-                propertiesMenu.style.top = propertiesMenu.clientHeight + "px";
-            }
+    useEffect(() => {
+        const propertiesMenu = propertiesMenuRef.current;
+        document.querySelector('.header').clientHeight
+        if (document.querySelector('.sm-screen')) {
+            propertiesMenu.style.position = "fixed";
+            propertiesMenu.style.top = document.querySelector('.header').clientHeight - 12 + "px";
+            propertiesMenu.style.width = '100vw'
         }
-    },[])
+        else {
+            propertiesMenu.style.position = "fixed";
+            propertiesMenu.style.width = '100vw'
+            propertiesMenu.style.top = document.querySelector('.header').clientHeight + "px";
+        }
+    }, [])
     return (
         <>
             <div className="properties-menu" ref={propertiesMenuRef}>
