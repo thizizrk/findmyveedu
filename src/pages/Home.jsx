@@ -1,6 +1,11 @@
+import ContentWrapper from "../components/ContentWrapper/ContentWrapper";
+
 const Home = () => {
   return (
-    <div>Home</div>
+    <ContentWrapper className={'home'}>
+      Home
+    </ContentWrapper>
+
   )
 }
 export default Home

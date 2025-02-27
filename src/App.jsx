@@ -30,7 +30,11 @@ function App() {
 
 
     updateScreenSize();
-
+    // let header = document.querySelector('.header');
+    // let headerHeight = header.clientHeight + "px";
+    // let mainContent = document.querySelector('.main-content');
+    // mainContent.style.paddingTop = headerHeight;
+    // mainContent.style.paddingBottom = headerHeight;
     window.addEventListener('resize', updateScreenSize);
     return () => {
       window.removeEventListener('resize', updateScreenSize);
@@ -41,17 +45,11 @@ function App() {
   return (
     <div className={`${screenSize} container`}>
       <Header />
-
       <div className="main-content">
-        {/* <ScrollToTop /> */}
         <Routes>
-          {/* Define your routes here */}
           <Route path="/" element={<Home />} />
           <Route path="/properties" element={<Properties />} />
-          <Route path="/property-details" element={<PropertyDetails />} />
-          {/* Add more routes as needed */}
         </Routes>
-        {/* <PorpertyDetails /> */}
       </div>
 
     </div>

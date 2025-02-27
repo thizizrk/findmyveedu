@@ -2,16 +2,13 @@ import './style.scss';
 import properties from '../../mocks/properties.json';
 import { useState, lazy, Suspense } from 'react';
 import PropertiesMenu from '../../components/PropertiesMenu/PropertiesMenu';
+import ContentWrapper from '../../components/ContentWrapper/ContentWrapper';
 
 const PropertyFilterModal = lazy(() => import('../../components/PropertyFilterModal/PropertyFilterModal'));
 const PropertiesToolBar = lazy(() => import('../../components/PropertiesToolBar/PropertiesToolBar'));
 const PropertySearchResults = lazy(() => import('../../components/PropertySearchResults/PropertySearchResults'));
 
 const Properties = () => {
-    // const [selectedArea, setSelectedArea] = useState('');
-    // const [selectedBedroom, setSelectedBedroom] = useState('');
-    // const [selectedBathroom, setSelectedBathroom] = useState('');
-    // const [selectedPropertyType, setSelectedPropertyType] = useState('');
     const [searchText, setSearchText] = useState('');
     const [showFilter, setShowFilter] = useState(false);
     const [filteredProperties, setFilteredProperties] = useState(properties);
@@ -22,11 +19,6 @@ const Properties = () => {
         location: ""
     })
     const [isFiltered, setIsFiltered] = useState(false);
-
-    // const handleAreaChange = (e) => setSelectedArea(e.target.value);
-    // const handleBedroomChange = (e) => setSelectedBedroom(e.target.value);
-    // const handleBathroomChange = (e) => setSelectedBathroom(e.target.value);
-    // const handlePropertyTypeChange = (e) => setSelectedPropertyType(e.target.value);
 
     const handleFilterOptionsChange = (e) => {
         setFilterOptions({ ...filterOptions, [e.target.name]: e.target.value })
@@ -40,15 +32,6 @@ const Properties = () => {
         setIsFiltered(false);
         setShowFilter((show) => !show);
     };
-
-    // const filteredProperties = properties.filter((property) => {
-    //     return property;
-    //     // return (
-    //     //     (selectedArea === '' || property.area === selectedArea) &&
-    //     //     (selectedBedroom === '' || property.bedrooms === Number(selectedBedroom)) &&
-    //     //     (selectedBathroom === '' || property.bathrooms === Number(selectedBathroom))
-    //     // );
-    // });
 
     const applyFilter = () => {
         const { bathroom, bedroom, propertyType, location } = filterOptions;
@@ -67,13 +50,9 @@ const Properties = () => {
         setIsFiltered(true);
     }
 
-    // const finalFilteredProperties = filterProperties.filter((property) =>
-    //     property.title.toLowerCase().includes(searchText)
-    // );
-
     return (
-        <div className='property-page'>
-            <PropertiesMenu />
+        <ContentWrapper className='property-page'>
+            <PropertiesMenu/>
             <div className='properties my-5'>
                {filteredProperties.length != 0 && <h3 className='mb-5'>{filteredProperties.length} {filteredProperties.length > 1 ? "Properties" : "Property"} found</h3>}
                 <div className='property-search-results'>
@@ -97,7 +76,7 @@ const Properties = () => {
                 />
             </Suspense>
 
-        </div>
+        </ContentWrapper>
     );
 };
 

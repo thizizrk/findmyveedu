@@ -5,22 +5,11 @@ const PropertiesMenu = () => {
     let propertiesMenuRef = useRef(null);
 
     useEffect(() => {
-        const propertiesMenu = propertiesMenuRef.current;
         let header = document.querySelector('.header');
-        let headerHeight = header.clientHeight;
+        const propertiesMenu = propertiesMenuRef.current;
         propertiesMenu.style.position = "fixed";
-        propertiesMenu.style.top = headerHeight + "px";
+        propertiesMenu.style.top = header.clientHeight + "px";
         propertiesMenu.style.width = '100vw'
-
-        if(propertiesMenu.clientHeight){
-            headerHeight += propertiesMenu.clientHeight
-        }
-        
-        headerHeight += "px"
-        console.log("updatedPadding ::::", headerHeight)
-        let mainContent = document.querySelector('.main-content');
-        mainContent.style.paddingTop = headerHeight;
-        mainContent.style.paddingBottom = headerHeight;
 
     }, [propertiesMenuRef.current])
     return (
