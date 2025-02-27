@@ -22,6 +22,7 @@ function App() {
       mainContent.style.paddingTop = headerHeight + "px";
       mainContent.style.paddingBottom = headerHeight + "px";
     }
+    
 
     const updateScreenSize = () => {
       const width = window.innerWidth;
@@ -42,7 +43,6 @@ function App() {
     updateScreenSize();
 
     window.addEventListener('resize', updateScreenSize);
-
     return () => {
       window.removeEventListener('resize', updateScreenSize);
     };

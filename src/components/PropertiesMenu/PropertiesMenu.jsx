@@ -1,15 +1,14 @@
-import { useEffect, useRef } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import './style.scss'
 const PropertiesMenu = () => {
 
     let propertiesMenuRef = useRef(null);
-
-    useEffect(() => {
+    
+    useEffect(()=>{
         const propertiesMenu = propertiesMenuRef.current;
-        document.querySelector('.header').clientHeight
         if (document.querySelector('.sm-screen')) {
             propertiesMenu.style.position = "fixed";
-            propertiesMenu.style.top = document.querySelector('.header').clientHeight - 12 + "px";
+            propertiesMenu.style.top = document.querySelector('.header').clientHeight + "px";
             propertiesMenu.style.width = '100vw'
         }
         else {
@@ -17,7 +16,7 @@ const PropertiesMenu = () => {
             propertiesMenu.style.width = '100vw'
             propertiesMenu.style.top = document.querySelector('.header').clientHeight + "px";
         }
-    }, [])
+    },[propertiesMenuRef.current])
     return (
         <>
             <div className="properties-menu" ref={propertiesMenuRef}>
