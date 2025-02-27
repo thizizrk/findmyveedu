@@ -51,26 +51,6 @@ const PropertyDetails = ({property}) => {
                                 <button onClick={prev}>
                                     <i className="fa fa-chevron-left"></i>
                                 </button>
-                                {/* <div className="dots py-5">
-                                {propertyImages.map((_, i) => (
-                                    <span key={i} className={index === i ? 'active' : ''}>
-                                        <i className="fa fa-circle mx-1"></i>
-                                    </span>
-                                ))}
-                            </div> */}
-                                {/* <div className="dots">
-                                {propertyImages.map((_, i) => (
-                                    <span
-                                        key={i}
-                                        className={`dot ${index === i ? 'active' : ''}`}
-                                        onClick={() => setIndex(i)}
-                                        aria-label={`Slide ${i + 1}`}
-                                        role="button"
-                                    >
-                                        <i className="fa fa-circle mx-1"></i>
-                                    </span>
-                                ))}
-                            </div> */}
                                 <div className="slide-indicator">
                                     {index + 1} / {propertyImages.length}
                                 </div>

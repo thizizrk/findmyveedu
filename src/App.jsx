@@ -15,15 +15,6 @@ function App() {
   const [screenSize, setScreenSize] = useState('');
 
   useEffect(() => {
-    const updateMainContentPadding = () => {
-      let header = document.querySelector('.header');
-      let headerHeight = header.clientHeight;
-      let mainContent = document.querySelector('.main-content');
-      mainContent.style.paddingTop = headerHeight + "px";
-      mainContent.style.paddingBottom = headerHeight + "px";
-    }
-    
-
     const updateScreenSize = () => {
       const width = window.innerWidth;
 
@@ -34,8 +25,6 @@ function App() {
       } else {
         setScreenSize('l-screen');
       }
-
-      updateMainContentPadding();
     };
 
 

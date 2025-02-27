@@ -3,20 +3,26 @@ import './style.scss'
 const PropertiesMenu = () => {
 
     let propertiesMenuRef = useRef(null);
-    
-    useEffect(()=>{
+
+    useEffect(() => {
         const propertiesMenu = propertiesMenuRef.current;
-        if (document.querySelector('.sm-screen')) {
-            propertiesMenu.style.position = "fixed";
-            propertiesMenu.style.top = document.querySelector('.header').clientHeight + "px";
-            propertiesMenu.style.width = '100vw'
+        let header = document.querySelector('.header');
+        let headerHeight = header.clientHeight;
+        propertiesMenu.style.position = "fixed";
+        propertiesMenu.style.top = headerHeight + "px";
+        propertiesMenu.style.width = '100vw'
+
+        if(propertiesMenu.clientHeight){
+            headerHeight += propertiesMenu.clientHeight
         }
-        else {
-            propertiesMenu.style.position = "fixed";
-            propertiesMenu.style.width = '100vw'
-            propertiesMenu.style.top = document.querySelector('.header').clientHeight + "px";
-        }
-    },[propertiesMenuRef.current])
+        
+        headerHeight += "px"
+        console.log("updatedPadding ::::", headerHeight)
+        let mainContent = document.querySelector('.main-content');
+        mainContent.style.paddingTop = headerHeight;
+        mainContent.style.paddingBottom = headerHeight;
+
+    }, [propertiesMenuRef.current])
     return (
         <>
             <div className="properties-menu" ref={propertiesMenuRef}>
